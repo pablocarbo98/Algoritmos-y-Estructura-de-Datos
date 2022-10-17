@@ -53,4 +53,13 @@ using namespace std::string_literals;
         assert(32u != 16u * 3u);
         assert(7u > 5u);
         assert(50u >= 10u);
+        
+        // limite de cada tipo y memoria
+
+        assert(sizeof 'a'== 1);
+        assert(sizeof 65==4);
+        assert(sizeof 40897241 == 4);
+        assert(sizeof "holas"== 6);
+        assert(sizeof "holasoy"== 8);
+        assert(sizeof "holasoypablo"== 13);
     }
